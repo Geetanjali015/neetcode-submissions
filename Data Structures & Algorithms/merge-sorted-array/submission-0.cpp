@@ -1,4 +1,4 @@
-class Solution {
+class Solution { //3 pointer o(m+n) sc=o(1)
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
     int i = m - 1;          // last valid element in nums1
