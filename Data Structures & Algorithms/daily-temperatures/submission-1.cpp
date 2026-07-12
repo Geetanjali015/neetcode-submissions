@@ -6,7 +6,7 @@ public:
     stack<int> st;
    for(int i=0;i<n;i++){
     while(!st.empty() && temperatures[i]>temperatures[st.top()]){
-        int prev=st.top();//save top
+        int prev=st.top();//store top
         st.pop(); //then pop it
         result[prev]=i-prev;//use top
         
